@@ -220,7 +220,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #2e6ff2;
+			color: #52575c;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -228,6 +228,11 @@ input, select, textarea {
 
 		header.major {
 			text-align: center;
+		}
+
+		.phone-highlight {
+		    font-weight: bolder;
+   			 color: #2e6ff2;
 		}
 
 /* Container */
@@ -2109,7 +2114,7 @@ input, select, textarea {
 	.homepage #header-wrapper {
 		padding: 8em 0 4em 0;
 		min-height: 520px;
-		background-image: linear-gradient(to right, rgba(20, 40, 80, 0.75) 0%, rgba(46, 111, 242, 0.55) 100%), url("../../images/hero.jpg");
+		background-image: linear-gradient(to right, rgba(39, 86, 180, 0.75) 0%, rgba(46, 111, 242, 0.55) 100%), url("../../images/hero.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -2311,6 +2316,7 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			display: flex;
 			flex-wrap: wrap;
+			justify-content: center;
 			gap: 0.75em;
 		}
 
@@ -2336,12 +2342,23 @@ input, select, textarea {
 			}
 
 				#hero .hero-links a:hover {
-					background-color: rgba(255, 255, 255, 0.15);
+					background-color: rgba(255, 255, 255, 0.322);
 					border-color: #fff;
 				}
 
 				#hero .hero-links a span {
 					margin-left: 0.15em;
+				}
+			
+				#hero .hero-links a.primary {
+    				background-color: #fff;
+    				color: #52575c;
+    				border-color: #fff;
+				}
+
+				#hero .hero-links a.primary:hover {
+    			background-color: rgba(255, 255, 255, 0.85);
+    			border-color: #fff;
 				}
 
 		#hero .hero-promo {
